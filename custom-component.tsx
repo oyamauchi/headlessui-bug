@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 
 function ThingWithPopover() {
   return (
-    <>
+    <div style={{ border: "1px solid black" }}>
       <button type="button">Before popover</button>
       <Popover>
         <Popover.Button>Toggle</Popover.Button>
@@ -13,7 +13,7 @@ function ThingWithPopover() {
         </Popover.Panel>
       </Popover>
       <button type="button">After popover</button>
-    </>
+    </div>
   );
 }
 
